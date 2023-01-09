@@ -1,6 +1,5 @@
 import { Header, Footer } from "../sections";
 import { Flex } from "@chakra-ui/react";
-import { Home } from '../pages'
 
 export const LoginLayout = ({ children }: any) => {
   return <>{children}</>;
@@ -8,7 +7,7 @@ export const LoginLayout = ({ children }: any) => {
 
 export const AppLayout = ({ children }: any) => {
   return (
-    <Flex flexDir='column'>
+    <Flex flexDir='column' overflow='auto' h='100vh' paddingBottom='82px'>
       {/* <Header /> */}
       {children}
       <Footer />

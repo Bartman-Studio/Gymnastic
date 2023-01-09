@@ -6,7 +6,7 @@ SwiperCore.use([Autoplay]);
 
 export const Welcome = (): any => {
   return (
-    <Flex gap="60px" direction="column">
+    <Flex gap="60px" direction="column" h='1000px'>
       <Header
         name="João"
         text="Encontre aqui as facilidades da sua rotina de treino"

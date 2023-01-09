@@ -11,20 +11,13 @@ body {
 }
 
 
-h1 {
-  font-family: 'Montserrat';
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 5px;
+  background-color: #dddddd;
 }
 
-h2 {
-  font-family: 'Rokkitt';
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
 }
-
-p {
-  font-family: 'Source Sans Pro';
-}
-
-
-
-
-
-
