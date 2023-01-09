@@ -1,6 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import { UserQuiz } from "../../components";
-import { Navigation } from "../Navigation";
+import { UserQuiz, Navigation } from "../../components";
 
 export const Home = (): any => {
   return (

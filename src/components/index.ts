@@ -3,3 +3,4 @@ export { Training } from "./Training";
 export { Summary } from "./Summary";
 export { Custom } from "./Custom";
 export { UserQuiz, ModalIMC } from "./Modal";
+export { Navigation } from "./Navigation";

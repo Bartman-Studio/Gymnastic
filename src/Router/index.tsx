@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Login, Home, Register } from "../pages";
+import { Login, Home, Register, Welcome } from "../pages";
 import { AppLayout, LoginLayout } from "../layout";
 import { PrivateRoute } from "./Private";
 
@@ -12,6 +12,16 @@ export const Router = (): any => {
           <PrivateRoute>
             <AppLayout>
               <Home />
+            </AppLayout>
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/welcome"
+        element={
+          <PrivateRoute>
+            <AppLayout>
+              <Welcome />
             </AppLayout>
           </PrivateRoute>
         }

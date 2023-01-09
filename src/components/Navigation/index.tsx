@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Diet, Training, Summary, Custom } from "../../components";
+import { Diet, Training, Summary, Custom } from "..";
 import "swiper/css";
 
 export const Navigation = (): any => {
